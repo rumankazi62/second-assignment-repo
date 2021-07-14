@@ -202,3 +202,33 @@ table tr td{
   text-decoration: none;
   color: #6C6C6C;
 }
+/*------------footer part styles--------*/
+.football-footer{
+  padding-top: 158px;
+  padding-bottom: 63px;
+}
+.footer-info{
+  width: 483px;
+  height: 213px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.footer-img img{
+  width: 483px;
+  height: 110px;
+  margin: 20px 0px;
+}
+.footer-icon a {
+  width: 32px;
+  height: 32px;
+  text-decoration: none;
+  margin: 0 14px;
+  color: #969BAB;
+}
+.footer-details h4{
+  color: #000000;
+  font-weight: 400;
+}
