@@ -232,3 +232,75 @@ table tr td{
   color: #000000;
   font-weight: 400;
 }
+/*-----------Responsive in mobile device-----------*/
+@media only screen and (max-width:500px) {
+  .container{
+    width: 100%;
+  }
+  .header-info{
+    background-color: #2D25A0;
+    height: 720px;
+  }
+  .head-menu{
+    display: none;
+    padding-top: 0px;
+  }
+  .head-content{
+    width: 100%;
+    margin-left: 16px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .football-info h1{
+    width: 278px;
+    font-size: 36px;
+  }
+  .football-img img{
+    width: 329px;
+    height: 259px;
+  }
+  .header-info:hover .football-img img{
+    transform: none;
+    transition: none;
+  }
+  .players{
+    margin: 0 15px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .highlight-content{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-row-gap: 150px;
+    margin: 0 16px;
+  }
+  .highlight-info h1{
+    width: 294px;
+    height: 80px;
+    font-size: 30px;
+  }
+  .highlight-info p{
+    width: 329px;
+    font-size: 16px;
+  }
+  .hightlight-img img{
+    width: 328px;
+    height: 248px;
+  } 
+  .team-ranking{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-row-gap: 50px;
+  }
+  table{
+    width: 100%;
+  }
+  .video-section h1{
+    width: 100%;
+  }
+  .videos{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
