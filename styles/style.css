@@ -1,0 +1,144 @@
+/*-------google fonts----------*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700&display=swap');
+body{
+  font-family: 'Poppins', sans-serif;
+  background-color: #FFFFFF;
+}
+/*---------header item style----------*/
+.header-info{
+  background-color: #2D25A0;
+  height: 677px;
+}
+/*--------transform,transition style----------*/
+.header-info:hover .football-img img{
+  transform: scale(1.2) skew(10deg);
+  transition-duration: 2s;
+  transition-delay: 0.5s;
+}
+/*-----------hover style-------------*/
+.page-link:hover{
+  color:#E02C6D;
+}
+
+.login-item:hover a{
+  background-color: #E02C6D;
+}
+.button:hover{
+  background-color:#E02C6D;
+}
+/*-----------------------------*/
+.container{
+  width: 1160px;
+  margin: 0 auto;
+}
+.head-menu{
+  height: 44px;
+  padding-top: 42px;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+.page-link{
+  text-decoration: none;
+  margin-right: 36px;
+  color: #FFFFFF;
+}
+
+.login-item nav a{
+  color:#FFFFFF;
+  background-color: rgb(102, 199, 6);
+  padding: 10px 24px;
+  text-decoration: none;
+}
+.login-item i{
+  padding-right: 8px;
+}
+/*-----------content items style---------*/
+.head-content{
+  color:#FFFFFF;
+  display: flex;
+  justify-content: space-between;
+}
+.football-info h1{
+  font-size: 64px;
+  width: 485px;
+  margin: 121px 0px 27px 0px;
+}
+.button{
+  color: #FFFFFF;
+  text-decoration: none;
+  background-color: rgb(102, 199, 6);
+  padding: 10px 24px;
+}
+
+.button i{
+  padding-left: 8px;
+}
+.football-img img{
+  width: 556px;
+  height: 438px;
+  margin-top: 67px;
+}
+/*-------players info style-------*/
+.player-section{
+  margin-top: 70px;
+}
+.players{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-row-gap: 27px;
+}
+.player{
+  width: 330px;
+  height: 474px;
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+  padding-bottom: 30px;
+}
+.player-img img{
+  width: 300px;
+  height: 256px;
+  padding: 15px 15px 0px 15px;
+}
+.player-info{
+  width: 300px;
+  height: 154px;
+}
+.player-info h3{
+  font-size: 28px;
+  padding: 0px 15px;
+  margin-top: 16px;
+}
+.player-info p{
+  font-size: 16px;
+  color: #6C6C6C;
+  font-weight: 400;
+  padding: 0px 15px;
+  text-align: justify;
+}
+/*---------highlights section styles---------*/
+.highlight-section{
+  margin-top: 165px;
+}
+.highlight-content{
+  display: flex;
+  justify-content: space-between;
+}
+.highlight-info{
+  width: 469px;
+  height: 309px;
+}
+.highlight-info h1{
+  font-size: 48px;
+  width: 100%;
+  height: 120px;
+  padding-bottom: 8px;
+}
+.highlight-info p{
+  padding-bottom: 24px;
+  color: #6C6C6C;
+  font-size: 16px;
+}
+.hightlight-img img{
+  width: 567px;
+  height: 427px;
+}
