@@ -237,6 +237,7 @@ table tr td{
   .container{
     width: 100%;
   }
+  /* head responsive */
   .header-info{
     background-color: #2D25A0;
     height: 720px;
@@ -263,10 +264,15 @@ table tr td{
     transform: none;
     transition: none;
   }
+  /* players section responsive */
   .players{
     margin: 0 15px;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
+  }
+  /* highlingt section responsive */
+  .highlight-section{
+    margin-top: 35px;
   }
   .highlight-content{
     width: 100%;
@@ -288,19 +294,53 @@ table tr td{
     width: 328px;
     height: 248px;
   } 
+  /* table and tema ranking responsive */
   .team-ranking{
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-row-gap: 50px;
   }
   table{
-    width: 100%;
+    width: 328px;
+    height: 200px;
+    margin: 0 15px;
   }
+  table tr th{
+    font-size: 10px;
+  }
+  table tr td{
+    font-size: 10px;
+  }
+  .team-flag{
+    width: 20px;
+    height: 15px;
+    margin-right: 0;
+  }
+  /* video section responsive */
   .video-section h1{
-    width: 100%;
+    width: 328px;
   }
   .videos{
+    width: 320px;
+    margin: 0 10px;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
+    grid-row-gap: 50px;
   }
+  .video{
+    margin-left: 0;
+  }
+  /* footer responsive */
+  .football-footer{
+    padding-top: 43px;
+    padding-bottom: 83px;
+  }
+  .footer-info{
+    width: 236px;
+  }
+  .footer-img img{
+    width: 296px;
+    height: 65px;
+  }
+  
 }
