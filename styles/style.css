@@ -344,3 +344,118 @@ table tr td{
   }
   
 }
+/*-----------Responsive in tablet device-----------*/
+@media only screen and (min-width:768px) and (max-width:1023px) {
+  .container{
+    width: 100%;
+    margin: 0 auto;
+  }
+  /* head responsive */
+  .header-info{
+    background-color: #2D25A0;
+    height: 600px;
+  }
+  .head-menu{
+    display: none;
+    padding-top: 0px;
+  }
+  .head-content{
+    width: 100%;
+    margin-left: 16px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .football-info h1{
+    width: 278px;
+    font-size: 36px;
+    margin: 60px 0px 27px 0px;
+  }
+  .football-img img{
+    width: 329px;
+    height: 259px;
+  }
+  .header-info:hover .football-img img{
+    transform: none;
+    transition: none;
+  }
+  /* players section responsive */
+  .players{
+    margin: 0 15px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  /* highlingt section responsive */
+  .highlight-section{
+    margin-top: 35px;
+  }
+  .highlight-content{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-row-gap: 150px;
+    margin: 0 16px;
+  }
+  .highlight-info h1{
+    width: 294px;
+    height: 80px;
+    font-size: 30px;
+  }
+  .highlight-info p{
+    width: 329px;
+    font-size: 16px;
+  }
+  .hightlight-img img{
+    width: 328px;
+    height: 248px;
+  } 
+  /* table and tema ranking responsive */
+  .team-ranking{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 50px;
+  }
+  table{
+    width: 350px;
+    height: 200px;
+    margin: 0 15px;
+  }
+  table tr th{
+    font-size: 10px;
+  }
+  table tr td{
+    font-size: 10px;
+  }
+  .team-flag{
+    width: 20px;
+    height: 15px;
+    margin-right: 0;
+  }
+  /* video section responsive */
+  .video-section h1{
+    width: 328px;
+  }
+  .videos{
+    width: 320px;
+    margin: 0 10px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+  }
+  .video{
+    margin-left: 0;
+  }
+  /* footer responsive */
+  .football-footer{
+    padding-top: 43px;
+    padding-bottom: 83px;
+  }
+  .footer-info{
+    width: 236px;
+  }
+  .footer-img img{
+    width: 296px;
+    height: 65px;
+  }
+  
+}
