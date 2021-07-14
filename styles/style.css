@@ -142,3 +142,63 @@ body{
   width: 567px;
   height: 427px;
 }
+/*--------ranking section style--------*/
+.ranking-section{
+  margin-top:90px;
+}
+.ranking-section h1{
+  text-align: center;
+  font-size: 40px;
+  padding-bottom: 30px;
+}
+.team-ranking {
+  display: flex;
+  justify-content: space-around;
+}
+table{
+  border-collapse: collapse;
+  border-color: #2D25A0;
+}
+table tr th{
+  padding: 10px 30px;
+
+}
+table tr td{
+  padding: 10px 30px;
+  font-size: 30px;
+}
+.team-flag{
+  width: 33px;
+  height: 22.5px;
+  margin-right: 10px;
+}
+/*--------------video section styles----------*/
+.video-section{
+  margin-top: 90px;
+}
+.videos{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+}
+.video{
+  width: 350px;
+  margin-left: 25px;
+}
+.video-section h1{
+  text-align: center;
+  font-size: 40px;
+  padding-bottom: 30px;
+}
+.video-source video{
+  width:350px;
+  height: 200px;
+  border-radius: 8px;
+}
+.video-info p{
+  color: black;
+  font-size: 20px;
+}
+.video-info a{
+  text-decoration: none;
+  color: #6C6C6C;
+}
