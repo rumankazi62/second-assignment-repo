@@ -233,7 +233,7 @@ table tr td{
   font-weight: 400;
 }
 /*-----------Responsive in mobile device-----------*/
-@media only screen and (max-width:500px) {
+@media only screen and (max-width:480px) {
   .container{
     width: 100%;
   }
@@ -241,6 +241,7 @@ table tr td{
   .header-info{
     background-color: #2D25A0;
     height: 720px;
+    width: 480px;
   }
   .head-menu{
     display: none;
